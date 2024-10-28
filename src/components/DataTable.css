@@ -38,7 +38,7 @@ th .resizer {
 }
 
 th.sortable:after {
-  content: '\25b2'; /* Unicode for up arrow */
+  content: '\25b2'; 
   position: absolute;
   right: 10px;
   color: #000;
@@ -47,12 +47,12 @@ th.sortable:after {
 
 th.sortable.sorted-ascending:after {
   display: inline-block;
-  content: '\25b2'; /* Unicode for up arrow */
+  content: '\25b2'; 
 }
 
 th.sortable.sorted-descending:after {
   display: inline-block;
-  content: '\25bc'; /* Unicode for down arrow */
+  content: '\25bc'; 
 }
 
 tr:hover {
